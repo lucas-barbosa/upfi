@@ -11,6 +11,8 @@ export function Header(): JSX.Element {
         <Flex
           justifyContent="space-between"
           alignItems="center"
+          wrap="wrap"
+          gridGap="10px"
           maxW={1120}
           mx="auto"
           px={20}
